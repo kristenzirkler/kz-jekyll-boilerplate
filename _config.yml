@@ -2,3 +2,9 @@ highlighter: pygments
 github: [Repository metadata]
 
 baseurl: "http://kristenzirkler.github.io/kz-jekyll-boilerplate"
+
+# Sass
+sass:
+  sass_dir: scss
+  style: :expanded
+  line_numbers: true
