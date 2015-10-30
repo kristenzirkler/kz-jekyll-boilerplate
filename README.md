@@ -1,6 +1,15 @@
 # Jekyll Marketing Site Boilerplate
 ## kristenzirkler
 
+## To Work on Site Locally
+
+* in terminal, navigate to the repo directory.
+* jekyll serve --watch --baseurl='' (the baseurl option is empty on purpose)
+* open browser and go to http://localhost:4000/
+
+## Other Tips
+
+* do not edit any files in _site
 * you can have files in the main dir (todays-benefits.html) or directories to make pretty urls (/todays-benefits/index.html)
 * URL set up static files & navigation like this so the urls are correct on production & local
 http://stackoverflow.com/questions/14322329/site-root-github-pages-vs-jekyll-server
