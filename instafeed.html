@@ -1,0 +1,27 @@
+---
+layout: default
+title: Instagram Feed
+slug: instafeed
+path: ../
+
+meta-title: Instagram Feed
+meta-description: Instagram Feed
+---
+
+<div class="slide instafeed">
+  <div class="inner">
+    <h2><span>Blythe Grace on Instagram</span></h2>
+    <div id="instafeed"></div>
+  </div>
+</div>
+
+<!-- Instagram Feed -->
+<script type="text/javascript" src="{{ site.baseurl }}/js/vendor/instafeed.min.js"></script>
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '135419',
+        clientId: '1187cdc561bc4755918cf98667b13d8d'
+    });
+    feed.run();
+</script>
