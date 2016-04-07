@@ -10,7 +10,6 @@ meta-description: Instagram Feed
 
 <div class="slide instafeed">
   <div class="inner">
-    <h2><span>Blythe Grace on Instagram</span></h2>
     <div id="instafeed"></div>
   </div>
 </div>
@@ -19,9 +18,10 @@ meta-description: Instagram Feed
 <script type="text/javascript" src="{{ site.baseurl }}/js/vendor/instafeed.min.js"></script>
 <script type="text/javascript">
     var feed = new Instafeed({
-        get: 'user',
-        userId: '135419',
-        clientId: '1187cdc561bc4755918cf98667b13d8d'
+    get: 'user',
+    userId: 135419,
+    clientId: '1187cdc561bc4755918cf98667b13d8d',
+    accessToken: '135419.1677ed0.b7e04725b1054c6eb07b8b9201229846'
     });
     feed.run();
 </script>
