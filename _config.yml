@@ -1,7 +1,7 @@
 highlighter: rouge
 github: [Repository metadata]
 
-baseurl: "http://kristenzirkler.github.io/kz-jekyll-boilerplate"
+baseurl: "https://kristenzirkler.github.io/kz-jekyll-boilerplate"
 
 # Sass
 sass:

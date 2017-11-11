@@ -1,9 +1,11 @@
 ---
 ---
+$baseurl: '{{ site.baseurl }}';
 
-@import 'variables';
+@import '_variables';
+@import '_reset';
+@import '_simple-grid';
 
-@import 'reset';
 @import 'icons';
 @import 'site-frame';
 @import 'buttons';
@@ -32,19 +34,6 @@ a {
 p {
   line-height: 1.5em;
   margin-bottom: 1em;
-}
-
-.button {
-  padding: 1em 1.5em;
-  color: #fff;
-  display: inline-block;
-  background: $main-color;
-  font-family: $accent-font;
-  text-transform: uppercase;
-  &:hover {
-    color: #fff;
-    background: lighten($main-color,10);
-  }
 }
 
 // Headers
