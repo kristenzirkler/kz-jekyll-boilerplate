@@ -3,6 +3,8 @@ github: [Repository metadata]
 
 baseurl: "https://kristenzirkler.github.io/kz-jekyll-boilerplate"
 
+livereload: true
+
 # Sass
 sass:
   sass_dir: scss

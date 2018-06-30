@@ -1,6 +1,11 @@
 // Columns -------------------------------------------------------
 .row {
   overflow: hidden;
+  &.collapse {
+    .column {
+      padding: 0;
+    }
+  }
 }
 .column {
   float: left;
