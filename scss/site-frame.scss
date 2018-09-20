@@ -5,6 +5,8 @@ $footer-height: 50px;
 // You can use url($baseurl+'/img/sitebg.jpg'); because it is added in style.scss
 body {
 	margin-top: $nav-height;
+	background: $body-background;
+	color: $font-color;
 }
 
 .site-navigation {
@@ -88,13 +90,13 @@ body {
 }
 
 // Responsive
-@media all and (min-width: 420px) {
+@media all and (min-width: $page-size-md) {
 // Tablet & Up
 
 // End Tablet & Up
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: $page-size) {
 // Desktop & Up
 
 	.site-navigation {
